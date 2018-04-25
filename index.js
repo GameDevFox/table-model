@@ -70411,7 +70411,12 @@ var Demo = function Demo() {
     _react2.default.createElement(
       'h1',
       null,
-      'TableModel ag-Grid Demo'
+      'TableModel ag-Grid Demo - ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://github.com/target/table-model' },
+        'https://github.com/target/table-model'
+      )
     ),
     _react2.default.createElement(_grid2.default, null)
   );
